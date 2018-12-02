@@ -11,10 +11,10 @@ import * as routes from './routes.module';
   declarations: [
     AppComponent,
     HomepageComponent
+
   ],
   imports: [
     BrowserModule,
-    HomepageComponent,
     RouterModule.forRoot(routes.appRoutes)
   ],
   providers: [],
